@@ -1,0 +1,1 @@
+company_names_lu <- query_athena("select distinct companyname from estat_dsl2531b_oja.ft_document_en_v8 where idcountry='LU' limit 1000")
