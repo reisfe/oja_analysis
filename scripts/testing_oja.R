@@ -1,6 +1,6 @@
 library(wihoja)
 
-oja <- query_athena("select * from estat_dsl2531b_oja.ft_document_en_v8 limit 10")
+oja <- query_athena("select * from estat_dsl2531b_oja.ft_document_en_v5 limit 10")
 
 oja <- get_oja(idcountry = "LU", lang = "pt")
 
